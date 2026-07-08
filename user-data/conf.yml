@@ -1,11 +1,6 @@
 pageInfo:
   title: MOSSAD
   description: Exterminate Jihad
-  navLinks:
-    - title: GitHub
-      path: https://github.com/Lissy93/dashy
-    - title: Documentation
-      path: https://dashy.to/docs
 appConfig:
   theme: dashy-docs
   layout: auto
