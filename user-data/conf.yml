@@ -371,8 +371,7 @@ sections:
         id: 2_1607_supabase
       - &ref_47
         title: Vercel
-        icon: >-
-          https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fcdn.brandfetch.io%2Fvercel.com%2Ffallback%2Flettermark%2Ftheme%2Fdark%2Fh%2F256%2Fw%2F256%2Ficon%3Fc%3D1bfwsmEH20zzEfSNTed&sp=1777112697T7272fd9badb16ef060aaeb38c60bc458b41e2eae1c8b4d3c12c870d1f122b459
+        icon: favicon
         url: https://vercel.com
         id: 3_1607_vercel
       - &ref_48
@@ -452,7 +451,7 @@ sections:
         id: 0_616_dodirepacks
       - &ref_57
         title: Fitgirl Repacks
-        icon: favicon
+        icon: https://external-content.duckduckgo.com/ip3/fitgirl-repacks.site.ico
         url: https://fitgirl-repacks.site/
         id: 1_616_fitgirlrepacks
       - &ref_58
