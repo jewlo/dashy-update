@@ -553,3 +553,49 @@ sections:
     filteredItems:
       - *ref_68
       - *ref_69
+sections:
+  - name: Storage
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+      items:
+      - &ref_70
+        title: Icedrive
+        icon: favicon
+        url: https://icedrive.net/
+        id: 0_1473_icedrive
+
+      - &ref_71
+        title: FileN
+        icon: favicon
+        url: https://filen.io/
+        id: 0_1473_filen
+
+      - &ref_72
+        title: Koofr
+        icon: favicon
+        url: https://https://app.koofr.net//
+        id: 0_1473_koofr
+
+      - &ref_73
+        title: Google Drive
+        icon: favicon
+        url: https://https://drive.google.com//
+        id: 0_1473_googledrive
+
+      - &ref_74
+        title: InternetX
+        icon: favicon
+        url: https://drive.internxt.com/
+        id: 0_1473_internetx
+
+        filteredItems:
+      - *ref_70
+      - *ref_71
+      - *ref_72
+      - *ref_73
+      - *ref_74
+
