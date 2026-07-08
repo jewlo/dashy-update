@@ -51,8 +51,7 @@ sections:
         id: 5_702_twitch
       - &ref_6
         title: Medium
-        icon: >-
-          https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F5968%2F5968906.png&sp=1777112431Taa85b12bfd7906ea68bf2de1b53b0c7fa600e34bad6b65e5c48b27fb7c983771
+        icon: favicon
         url: https://medium.com/
         id: 6_702_medium
       - &ref_7
@@ -250,8 +249,7 @@ sections:
         id: 6_170_perplexity
       - &ref_31
         title: Deepseek
-        icon: >-
-          https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fregistry.npmmirror.com%2F%40lobehub%2Ficons-static-png%2Flatest%2Ffiles%2Fdark%2Fdeepseek-color.png&sp=1777113820T90d09617484d0f3da3dd2a5bd7087eb32ac3baaf2e89d55cd04717a4ce968ead
+        icon: Favicon
         url: https://chat.deepseek.com/
         id: 7_170_deepseek
     filteredItems:
@@ -339,8 +337,8 @@ sections:
         id: 2_1151_eloshapes
 
       - &ref_41
-        title: Gearz.gg
-        icon: favicon
+        title: Gearz
+        icon: https://gearz.gg/_next/image?url=%2Fimages%2FGEARZ-LOGO.png&w=128&q=75
         url: https://gearz.gg/
         id: 3_1151_gearzgg
     filteredItems:
@@ -454,8 +452,7 @@ sections:
         id: 0_616_dodirepacks
       - &ref_57
         title: Fitgirl Repacks
-        icon: >-
-          http://192.168.29.152:8888/image_proxy?url=https%3A%2F%2Fts1.mm.bing.net%2Fth%3Fid%3DOIP.YBn8NSYkrYcJ5RxXsowVyAHaHa%26pid%3D15.1&h=69f6eab8e707bace97b219140ae85c37d82219c2ac44e40e0a4a5be97a965d4c
+        icon: favicon
         url: https://fitgirl-repacks.site/
         id: 1_616_fitgirlrepacks
       - &ref_58
@@ -496,7 +493,7 @@ sections:
       - &ref_62
         title: TryHackMe
         icon: favicon
-        url: https://tryhackme.com/dashboard
+        url: https://tryhackme.com/
         id: 0_1389_tryhackme
       - &ref_63
         title: HackTheBox
@@ -507,7 +504,7 @@ sections:
         title: vulnhub
         icon: favicon
         url: https://www.vulnhub.com/
-        id: 2_1389_vulnhub
+        id:
       - &ref_65
         title: OWASP
         icon: favicon
@@ -520,7 +517,7 @@ sections:
         id: 4_1389_portswigger
       - &ref_67
         title: CyLab Academy
-        icon: favicon
+        icon: https://cylabacademy.org/img/logos/cylab_shield.svg
         url: https://cylabacademy.org/
         id: 5_1389_cylabacademy
     filteredItems:
