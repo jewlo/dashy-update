@@ -1,10 +1,11 @@
+appConfig:
+  theme: dashy-docs
+  layout: masonry
+  iconSize: small
+  language: en-GB
 pageInfo:
   title: MOSSAD
   description: Exterminate Jihad
-appConfig:
-  theme: dashy-docs
-  layout: auto
-  iconSize: small
 sections:
   - name: General
     displayData:
@@ -14,61 +15,83 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_0
-        title: Youtube
+      - title: Youtube
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/youtube.svg
         url: https://www.youtube.com/
         id: 0_702_youtube
-      - &ref_1
-        title: Proton Mail
+      - title: Proton Mail
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/proton-mail.png
         url: https://mail.proton.me/u/0/inbox
         id: 1_702_protonmail
-      - &ref_2
-        title: Tuta Mail
+      - title: Tuta Mail
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/tuta.webp
         url: https://app.tuta.com/mail/OFzdt6y-1s-9
         id: 2_702_tutamail
-      - &ref_3
-        title: Hostinger Mail
+      - title: Hostinger Mail
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/hostinger.webp
         url: https://mail.hostinger.com/v2/mailboxes/INBOX
         id: 3_702_hostingermail
-      - &ref_4
-        title: Gmail
+      - title: Gmail
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/gmail.webp
         url: https://mail.google.com/mail/
         id: 4_702_gmail
-      - &ref_5
-        title: Twitch
+      - title: Twitch
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/twitch.webp
         url: https://www.twitch.tv/
         id: 5_702_twitch
-      - &ref_6
-        title: Medium
+      - title: Medium
         icon: favicon
         url: https://medium.com/
         id: 6_702_medium
-      - &ref_7
-        title: Lemmy
+      - title: Lemmy
         icon: >-
           https://lemmus.org/pictrs/image/5f43852c-de02-4f35-81ba-cb735d7dc16f.webp?format=webp&thumbnail=96
         url: https://lemmus.org/
         id: 7_702_lemmy
     filteredItems:
-      - *ref_0
-      - *ref_1
-      - *ref_2
-      - *ref_3
-      - *ref_4
-      - *ref_5
-      - *ref_6
-      - *ref_7
+      - title: Youtube
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/youtube.svg
+        url: https://www.youtube.com/
+        id: 0_702_youtube
+      - title: Proton Mail
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/proton-mail.png
+        url: https://mail.proton.me/u/0/inbox
+        id: 1_702_protonmail
+      - title: Tuta Mail
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/tuta.webp
+        url: https://app.tuta.com/mail/OFzdt6y-1s-9
+        id: 2_702_tutamail
+      - title: Hostinger Mail
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/hostinger.webp
+        url: https://mail.hostinger.com/v2/mailboxes/INBOX
+        id: 3_702_hostingermail
+      - title: Gmail
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/gmail.webp
+        url: https://mail.google.com/mail/
+        id: 4_702_gmail
+      - title: Twitch
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/twitch.webp
+        url: https://www.twitch.tv/
+        id: 5_702_twitch
+      - title: Medium
+        icon: favicon
+        url: https://medium.com/
+        id: 6_702_medium
+      - title: Lemmy
+        icon: >-
+          https://lemmus.org/pictrs/image/5f43852c-de02-4f35-81ba-cb735d7dc16f.webp?format=webp&thumbnail=96
+        url: https://lemmus.org/
+        id: 7_702_lemmy
   - name: Social Media
     displayData:
       sortBy: default
@@ -77,63 +100,91 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_8
-        title: Instagram
+      - title: Instagram
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/instagram.webp
         url: https://www.instagram.com/
         id: 0_1115_instagram
-      - &ref_9
-        title: Whatsapp
+      - title: Whatsapp
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/whatsapp.webp
         url: https://web.whatsapp.com/
         id: 1_1115_whatsapp
-      - &ref_10
-        title: Telegram
+      - title: Telegram
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/telegram.webp
         url: https://web.telegram.org/k/
         id: 2_1115_telegram
-      - &ref_11
-        title: Reddit
+      - title: Reddit
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/reddit.webp
         url: https://www.reddit.com/
         id: 3_1115_reddit
-      - &ref_12
-        title: Twitter
+      - title: Twitter
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/x-light.webp
         url: https://x.com/
         id: 4_1115_twitter
-      - &ref_13
-        title: Circle
+      - title: Circle
         description: The Indian Audiophile Forum
         icon: >-
           https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb1_I6n9ksdQBtukExgJqWwaTrn6Ojkv9QKw&s
         url: https://www.theindianaudiophileforum.com/
         id: 5_1115_circle
-      - &ref_14
-        title: Element
+      - title: Element
         description: matrix client
         icon: favicon
         url: https://app.element.io
         id: 6_1115_element
-      - &ref_15
-        title: Converse.Js
+      - title: Converse.Js
         icon: favicon
         url: https://chat.conversejs.org/
         id: 7_1115_conversejs
+      - title: LinkedIn
+        icon: favicon
+        url: https://www.linkedin.com
+        id: 8_1115_linkedin
     filteredItems:
-      - *ref_8
-      - *ref_9
-      - *ref_10
-      - *ref_11
-      - *ref_12
-      - *ref_13
-      - *ref_14
-      - *ref_15
+      - title: Instagram
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/instagram.webp
+        url: https://www.instagram.com/
+        id: 0_1115_instagram
+      - title: Whatsapp
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/whatsapp.webp
+        url: https://web.whatsapp.com/
+        id: 1_1115_whatsapp
+      - title: Telegram
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/telegram.webp
+        url: https://web.telegram.org/k/
+        id: 2_1115_telegram
+      - title: Reddit
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/reddit.webp
+        url: https://www.reddit.com/
+        id: 3_1115_reddit
+      - title: Twitter
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/x-light.webp
+        url: https://x.com/
+        id: 4_1115_twitter
+      - title: Circle
+        description: The Indian Audiophile Forum
+        icon: >-
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb1_I6n9ksdQBtukExgJqWwaTrn6Ojkv9QKw&s
+        url: https://www.theindianaudiophileforum.com/
+        id: 5_1115_circle
+      - title: Element
+        description: matrix client
+        icon: favicon
+        url: https://app.element.io
+        id: 6_1115_element
+      - title: Converse.Js
+        icon: favicon
+        url: https://chat.conversejs.org/
+        id: 7_1115_conversejs
   - name: Dev Sites
     displayData:
       sortBy: default
@@ -142,64 +193,89 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_16
-        title: Dev Docs
+      - title: Dev Docs
         icon: >-
           https://e7.pngegg.com/pngimages/392/294/png-clipart-documents-logo-docs-logo-documents-documentation.png
         url: https://devdocs.io/
         id: 0_839_devdocs
-      - &ref_17
-        title: Github
+      - title: Github
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/github-light.webp
         url: https://github.com/
         id: 1_839_github
-      - &ref_18
-        title: Figma
+      - title: Figma
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/figma.webp
         url: >-
           https://www.figma.com/files/team/1553751308897784178/recents-and-sharing?fuid=1553751305399524740
         id: 2_839_figma
-      - &ref_19
-        title: Stack Overflow
+      - title: Stack Overflow
         icon: >-
           https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvjbmDB1cMNB14ENKwauyoreISUiUbXLS2Ew&s
         url: https://stackoverflow.com/
         id: 3_839_stackoverflow
-      - &ref_20
-        title: Proxmox
+      - title: Proxmox
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/proxmox-light.webp
         url: https://192.168.29.184:8006/
         id: 4_839_proxmox
-      - &ref_21
-        title: Cloudflare
+      - title: Cloudflare
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/cloudflare.svg
         url: https://dash.cloudflare.com/
         id: 5_839_cloudflare
-      - &ref_22
-        title: Proxmox Helper Scripts
+      - title: Proxmox Helper Scripts
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/proxmox-light.png
         url: https://community-scripts.org/
         id: 6_839_proxmoxhelperscripts
-      - &ref_23
-        title: Pterodactyl
+      - title: Pterodactyl
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/pterodactyl.svg
         url: http://150.230.237.207/
         id: 7_839_pterodactyl
     filteredItems:
-      - *ref_16
-      - *ref_17
-      - *ref_18
-      - *ref_19
-      - *ref_20
-      - *ref_21
-      - *ref_22
-      - *ref_23
+      - title: Dev Docs
+        icon: >-
+          https://e7.pngegg.com/pngimages/392/294/png-clipart-documents-logo-docs-logo-documents-documentation.png
+        url: https://devdocs.io/
+        id: 0_839_devdocs
+      - title: Github
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/github-light.webp
+        url: https://github.com/
+        id: 1_839_github
+      - title: Figma
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/figma.webp
+        url: >-
+          https://www.figma.com/files/team/1553751308897784178/recents-and-sharing?fuid=1553751305399524740
+        id: 2_839_figma
+      - title: Stack Overflow
+        icon: >-
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvjbmDB1cMNB14ENKwauyoreISUiUbXLS2Ew&s
+        url: https://stackoverflow.com/
+        id: 3_839_stackoverflow
+      - title: Proxmox
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/proxmox-light.webp
+        url: https://192.168.29.184:8006/
+        id: 4_839_proxmox
+      - title: Cloudflare
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/cloudflare.svg
+        url: https://dash.cloudflare.com/
+        id: 5_839_cloudflare
+      - title: Proxmox Helper Scripts
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/proxmox-light.png
+        url: https://community-scripts.org/
+        id: 6_839_proxmoxhelperscripts
+      - title: Pterodactyl
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/pterodactyl.svg
+        url: http://150.230.237.207/
+        id: 7_839_pterodactyl
   - name: 'AI '
     displayData:
       sortBy: default
@@ -208,59 +284,79 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_24
-        title: Chatgpt
+      - title: Chatgpt
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/chatgpt.svg
         url: https://chatgpt.com/
         id: 0_170_chatgpt
-      - &ref_25
-        title: Claude
+      - title: Claude
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/claude-ai.svg
         url: https://claude.ai/login
         id: 1_170_claude
-      - &ref_26
-        title: Ollama
+      - title: Ollama
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/ollama-dark.svg
         url: https://ollama.com/
         id: 2_170_ollama
-      - &ref_27
-        title: Hugging Face
+      - title: Hugging Face
         icon: >-
           https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/hugging-face.svg
         url: https://huggingface.co/models
         id: 3_170_huggingface
-      - &ref_28
-        title: Grok
+      - title: Grok
         icon: favicon
         url: https://grok.com/
         id: 4_170_grok
-      - &ref_29
-        title: Gemini
+      - title: Gemini
         icon: favicon
         url: https://gemini.google.com/app
         id: 5_170_gemini
-      - &ref_30
-        title: Perplexity
+      - title: Perplexity
         icon: favicon
         url: https://www.perplexity.ai/
         id: 6_170_perplexity
-      - &ref_31
-        title: Deepseek
+      - title: Deepseek
         icon: https://external-content.duckduckgo.com/ip3/www.deepseek.com.ico
         url: https://chat.deepseek.com/
         id: 7_170_deepseek
     filteredItems:
-      - *ref_24
-      - *ref_25
-      - *ref_26
-      - *ref_27
-      - *ref_28
-      - *ref_29
-      - *ref_30
-      - *ref_31
+      - title: Chatgpt
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/chatgpt.svg
+        url: https://chatgpt.com/
+        id: 0_170_chatgpt
+      - title: Claude
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/claude-ai.svg
+        url: https://claude.ai/login
+        id: 1_170_claude
+      - title: Ollama
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/ollama-dark.svg
+        url: https://ollama.com/
+        id: 2_170_ollama
+      - title: Hugging Face
+        icon: >-
+          https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/hugging-face.svg
+        url: https://huggingface.co/models
+        id: 3_170_huggingface
+      - title: Grok
+        icon: favicon
+        url: https://grok.com/
+        id: 4_170_grok
+      - title: Gemini
+        icon: favicon
+        url: https://gemini.google.com/app
+        id: 5_170_gemini
+      - title: Perplexity
+        icon: favicon
+        url: https://www.perplexity.ai/
+        id: 6_170_perplexity
+      - title: Deepseek
+        icon: https://external-content.duckduckgo.com/ip3/www.deepseek.com.ico
+        url: https://chat.deepseek.com/
+        id: 7_170_deepseek
   - name: Gaming
     displayData:
       sortBy: default
@@ -269,48 +365,65 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_32
-        title: Steam
+      - title: Steam
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/steam.svg
         url: https://store.steampowered.com/
         id: 0_595_steam
-      - &ref_33
-        title: Faceit
+      - title: Faceit
         icon: >-
           https://cdn.iconscout.com/icon/free/png-512/free-faceit-logo-icon-svg-download-png-3029989.png?f=webp&w=512
         url: https://www.faceit.com/en/matchmaking
         id: 1_595_faceit
-      - &ref_34
-        title: Cs Stats
+      - title: Cs Stats
         icon: >-
           https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9b0SefkN4j_ouu4F48qUQoZO7KFduPVsyPA&s
         url: https://csstats.gg/
         id: 2_595_csstats
-      - &ref_35
-        title: CS Float
+      - title: CS Float
         icon: >-
           https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8G2CIiLTjG3u4UcQAfMBCTXBuu9IaDuhuA&s
         url: https://csfloat.com/
         id: 3_595_csfloat
-      - &ref_36
-        title: Leetify
+      - title: Leetify
         icon: >-
           https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTFreEt4BhVAcVXzXe1wGMmkFTICUj-Jy-wQ&s
         url: https://leetify.com/home
         id: 4_595_leetify
-      - &ref_37
-        title: Dmarket
+      - title: Dmarket
         icon: >-
           https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqqkp9jnyEWuDhH-YPWdc4KRN7SDt21Trzxw&s
         url: https://dmarket.com/
         id: 5_595_dmarket
     filteredItems:
-      - *ref_32
-      - *ref_33
-      - *ref_34
-      - *ref_35
-      - *ref_36
-      - *ref_37
+      - title: Steam
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/steam.svg
+        url: https://store.steampowered.com/
+        id: 0_595_steam
+      - title: Faceit
+        icon: >-
+          https://cdn.iconscout.com/icon/free/png-512/free-faceit-logo-icon-svg-download-png-3029989.png?f=webp&w=512
+        url: https://www.faceit.com/en/matchmaking
+        id: 1_595_faceit
+      - title: Cs Stats
+        icon: >-
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9b0SefkN4j_ouu4F48qUQoZO7KFduPVsyPA&s
+        url: https://csstats.gg/
+        id: 2_595_csstats
+      - title: CS Float
+        icon: >-
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8G2CIiLTjG3u4UcQAfMBCTXBuu9IaDuhuA&s
+        url: https://csfloat.com/
+        id: 3_595_csfloat
+      - title: Leetify
+        icon: >-
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTFreEt4BhVAcVXzXe1wGMmkFTICUj-Jy-wQ&s
+        url: https://leetify.com/home
+        id: 4_595_leetify
+      - title: Dmarket
+        icon: >-
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqqkp9jnyEWuDhH-YPWdc4KRN7SDt21Trzxw&s
+        url: https://dmarket.com/
+        id: 5_595_dmarket
   - name: Peripherals
     displayData:
       sortBy: default
@@ -319,33 +432,41 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_38
-        title: Lumenkey
+      - title: Lumenkey
         icon: >-
           https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsBhJx8ww7frfSeOs0_w7qlkFh99vYa7-2mQ&s
         url: https://luminkey.club/
         id: 0_1151_lumenkey
-      - &ref_39
-        title: ATK Hub
+      - title: ATK Hub
         icon: https://desktop.atkgear.com/assets/light2-a1bdaa20.svg
         url: https://hub.atk.pro/
         id: 1_1151_atkhub
-      - &ref_40
-        title: EloShapes
+      - title: EloShapes
         icon: favicon
         url: https://www.eloshapes.com/
         id: 2_1151_eloshapes
-
-      - &ref_41
-        title: Gearz
+      - title: Gearz
+        icon: https://external-content.duckduckgo.com/ip3/gearz.gg.ico
+        url: https://gearz.gg/
+        id: 3_1151_gearz
+    filteredItems:
+      - title: Lumenkey
+        icon: >-
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsBhJx8ww7frfSeOs0_w7qlkFh99vYa7-2mQ&s
+        url: https://luminkey.club/
+        id: 0_1151_lumenkey
+      - title: ATK Hub
+        icon: https://desktop.atkgear.com/assets/light2-a1bdaa20.svg
+        url: https://hub.atk.pro/
+        id: 1_1151_atkhub
+      - title: EloShapes
+        icon: favicon
+        url: https://www.eloshapes.com/
+        id: 2_1151_eloshapes
+      - title: Gearz
         icon: https://external-content.duckduckgo.com/ip3/gearz.gg.ico
         url: https://gearz.gg/
         id: 3_1151_gearzgg
-    filteredItems:
-      - *ref_38
-      - *ref_39
-      - *ref_40
-      - *ref_41
   - name: Cloud/Deployment
     displayData:
       sortBy: default
@@ -354,43 +475,59 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_44
-        title: Google Cloud
+      - title: Google Cloud
         icon: favicon
         url: https://cloud.google.com/
         id: 0_1607_googlecloud
-      - &ref_45
-        title: oracle cloud
+      - title: oracle cloud
         icon: favicon
         url: https://www.oracle.com/in/cloud/
         id: 1_1607_oraclecloud
-      - &ref_46
-        title: Supabase
+      - title: Supabase
         icon: favicon
         url: https://supabase.com/
         id: 2_1607_supabase
-      - &ref_47
-        title: Vercel
+      - title: Vercel
         icon: https://external-content.duckduckgo.com/ip3/vercel.com.ico
         url: https://vercel.com
         id: 3_1607_vercel
-      - &ref_48
-        title: AWS
+      - title: AWS
         icon: favicon
         url: https://aws.amazon.com/
         id: 4_1607_aws
-      - &ref_49
-        title: Gitlab
+      - title: Gitlab
         icon: favicon
         url: https://gitlab.com/
         id: 5_1607_gitlab
+      - title: Netlify
+        icon: favicon
+        url: https://www.netlify.com/
+        id: temp_Netlify
     filteredItems:
-      - *ref_44
-      - *ref_45
-      - *ref_46
-      - *ref_47
-      - *ref_48
-      - *ref_49
+      - title: Google Cloud
+        icon: favicon
+        url: https://cloud.google.com/
+        id: 0_1607_googlecloud
+      - title: oracle cloud
+        icon: favicon
+        url: https://www.oracle.com/in/cloud/
+        id: 1_1607_oraclecloud
+      - title: Supabase
+        icon: favicon
+        url: https://supabase.com/
+        id: 2_1607_supabase
+      - title: Vercel
+        icon: https://external-content.duckduckgo.com/ip3/vercel.com.ico
+        url: https://vercel.com
+        id: 3_1607_vercel
+      - title: AWS
+        icon: favicon
+        url: https://aws.amazon.com/
+        id: 4_1607_aws
+      - title: Gitlab
+        icon: favicon
+        url: https://gitlab.com/
+        id: 5_1607_gitlab
   - name: Finance
     displayData:
       sortBy: default
@@ -399,43 +536,55 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_50
-        title: Screener
+      - title: Screener
         icon: favicon
         url: https://www.screener.in/
         id: 0_692_screener
-      - &ref_51
-        title: Trading View
+      - title: Trading View
         icon: favicon
         url: https://in.tradingview.com/
         id: 1_692_tradingview
-      - &ref_52
-        title: Zerodha
+      - title: Zerodha
         icon: favicon
         url: https://kite.zerodha.com/
         id: 2_692_zerodha
-      - &ref_53
-        title: Money Control
+      - title: Money Control
         icon: favicon
         url: https://www.moneycontrol.com/
         id: 3_692_moneycontrol
-      - &ref_54
-        title: Mba Math
+      - title: Mba Math
         icon: favicon
         url: https://www.mbamath.com/
         id: 4_692_mbamath
-      - &ref_55
-        title: Bionic Turtle
+      - title: Bionic Turtle
         icon: favicon
         url: https://www.bionicturtle.com/
         id: 5_692_bionicturtle
     filteredItems:
-      - *ref_50
-      - *ref_51
-      - *ref_52
-      - *ref_53
-      - *ref_54
-      - *ref_55
+      - title: Screener
+        icon: favicon
+        url: https://www.screener.in/
+        id: 0_692_screener
+      - title: Trading View
+        icon: favicon
+        url: https://in.tradingview.com/
+        id: 1_692_tradingview
+      - title: Zerodha
+        icon: favicon
+        url: https://kite.zerodha.com/
+        id: 2_692_zerodha
+      - title: Money Control
+        icon: favicon
+        url: https://www.moneycontrol.com/
+        id: 3_692_moneycontrol
+      - title: Mba Math
+        icon: favicon
+        url: https://www.mbamath.com/
+        id: 4_692_mbamath
+      - title: Bionic Turtle
+        icon: favicon
+        url: https://www.bionicturtle.com/
+        id: 5_692_bionicturtle
   - name: Piracy
     displayData:
       sortBy: default
@@ -444,43 +593,55 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_56
-        title: DODI-Repacks
+      - title: DODI-Repacks
         icon: favicon
         url: https://dodi-repacks.site/
         id: 0_616_dodirepacks
-      - &ref_57
-        title: Fitgirl Repacks
+      - title: Fitgirl Repacks
         icon: https://external-content.duckduckgo.com/ip3/fitgirl-repacks.site.ico
         url: https://fitgirl-repacks.site/
         id: 1_616_fitgirlrepacks
-      - &ref_58
-        title: Monkrus
+      - title: Monkrus
         icon: favicon
         url: https://monkrus.dvuzu.com/
         id: 2_616_monkrus
-      - &ref_59
-        title: Cineby
+      - title: Cineby
         icon: favicon
         url: https://www.cineby.sc/
         id: 3_616_cineby
-      - &ref_60
-        title: Anna's Archive
+      - title: Anna's Archive
         icon: favicon
         url: https://annas-archive.gl/
         id: 4_616_annasarchive
-      - &ref_61
-        title: Emuparadise
+      - title: Emuparadise
         icon: favicon
         url: https://www.emuparadise.me/
         id: 5_616_emuparadise
     filteredItems:
-      - *ref_56
-      - *ref_57
-      - *ref_58
-      - *ref_59
-      - *ref_60
-      - *ref_61
+      - title: DODI-Repacks
+        icon: favicon
+        url: https://dodi-repacks.site/
+        id: 0_616_dodirepacks
+      - title: Fitgirl Repacks
+        icon: https://external-content.duckduckgo.com/ip3/fitgirl-repacks.site.ico
+        url: https://fitgirl-repacks.site/
+        id: 1_616_fitgirlrepacks
+      - title: Monkrus
+        icon: favicon
+        url: https://monkrus.dvuzu.com/
+        id: 2_616_monkrus
+      - title: Cineby
+        icon: favicon
+        url: https://www.cineby.sc/
+        id: 3_616_cineby
+      - title: Anna's Archive
+        icon: favicon
+        url: https://annas-archive.gl/
+        id: 4_616_annasarchive
+      - title: Emuparadise
+        icon: favicon
+        url: https://www.emuparadise.me/
+        id: 5_616_emuparadise
   - name: Cyber Security
     displayData:
       sortBy: default
@@ -489,43 +650,55 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_62
-        title: TryHackMe
+      - title: TryHackMe
         icon: https://external-content.duckduckgo.com/ip3/tryhackme.com.ico
         url: https://tryhackme.com/
         id: 0_1389_tryhackme
-      - &ref_63
-        title: HackTheBox
+      - title: HackTheBox
         icon: favicon
         url: https://account.hackthebox.com/dashboard
         id: 1_1389_hackthebox
-      - &ref_64
-        title: vulnhub
+      - title: vulnhub
         icon: favicon
         url: https://www.vulnhub.com/
-        id: 1_1355_vulnhub
-      - &ref_65
-        title: OWASP
+        id: 2_1389_vulnhub
+      - title: OWASP
         icon: favicon
         url: https://owasp.org/
         id: 3_1389_owasp
-      - &ref_66
-        title: Portswigger
+      - title: Portswigger
         icon: favicon
         url: https://portswigger.net/web-security
         id: 4_1389_portswigger
-      - &ref_67
-        title: CyLab Academy
+      - title: CyLab Academy
         icon: https://cylabacademy.org/img/logos/cylab_shield.svg
         url: https://cylabacademy.org/
         id: 5_1389_cylabacademy
     filteredItems:
-      - *ref_62
-      - *ref_63
-      - *ref_64
-      - *ref_65
-      - *ref_66
-      - *ref_67
+      - title: TryHackMe
+        icon: https://external-content.duckduckgo.com/ip3/tryhackme.com.ico
+        url: https://tryhackme.com/
+        id: 0_1389_tryhackme
+      - title: HackTheBox
+        icon: favicon
+        url: https://account.hackthebox.com/dashboard
+        id: 1_1389_hackthebox
+      - title: vulnhub
+        icon: favicon
+        url: https://www.vulnhub.com/
+        id: 1_1355_vulnhub
+      - title: OWASP
+        icon: favicon
+        url: https://owasp.org/
+        id: 3_1389_owasp
+      - title: Portswigger
+        icon: favicon
+        url: https://portswigger.net/web-security
+        id: 4_1389_portswigger
+      - title: CyLab Academy
+        icon: https://cylabacademy.org/img/logos/cylab_shield.svg
+        url: https://cylabacademy.org/
+        id: 5_1389_cylabacademy
   - name: Web Development
     displayData:
       sortBy: default
@@ -534,21 +707,23 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_68
-        title: The Odin Project
+      - title: The Odin Project
         icon: favicon
         url: https://www.theodinproject.com
         id: 0_1473_theodinproject
-
-      - &ref_69
-        title: web.dev
+      - title: web.dev
         icon: favicon
         url: https://web.dev/
         id: 1_1473_webdev
-
     filteredItems:
-      - *ref_68
-      - *ref_69
+      - title: The Odin Project
+        icon: favicon
+        url: https://www.theodinproject.com
+        id: 0_1473_theodinproject
+      - title: web.dev
+        icon: favicon
+        url: https://web.dev/
+        id: 1_1473_webdev
   - name: Storage
     displayData:
       sortBy: default
@@ -556,41 +731,46 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-
     items:
-      - &ref_70
-        title: Icedrive
+      - title: Icedrive
+        icon: favicon
+        url: https://icedrive.net/
+        id: 0_725_icedrive
+      - title: FileN
+        icon: favicon
+        url: https://filen.io/
+        id: 1_725_filen
+      - title: Koofr
+        icon: favicon
+        url: https://app.koofr.net/
+        id: 2_725_koofr
+      - title: Google Drive
+        icon: favicon
+        url: https://drive.google.com/
+        id: 3_725_googledrive
+      - title: Internxt
+        icon: favicon
+        url: https://drive.internxt.com/
+        id: 4_725_internxt
+    filteredItems:
+      - title: Icedrive
         icon: favicon
         url: https://icedrive.net/
         id: 0_1473_icedrive
-
-      - &ref_71
-        title: FileN
+      - title: FileN
         icon: favicon
         url: https://filen.io/
         id: 1_1473_filen
-
-      - &ref_72
-        title: Koofr
+      - title: Koofr
         icon: favicon
         url: https://app.koofr.net/
         id: 2_1473_koofr
-
-      - &ref_73
-        title: Google Drive
+      - title: Google Drive
         icon: favicon
         url: https://drive.google.com/
         id: 3_1473_googledrive
-
-      - &ref_74
-        title: Internxt
+      - title: Internxt
         icon: favicon
         url: https://drive.internxt.com/
         id: 4_1473_internxt
-
-    filteredItems:
-      - *ref_70
-      - *ref_71
-      - *ref_72
-      - *ref_73
-      - *ref_74
+pages: []
