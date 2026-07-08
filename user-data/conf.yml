@@ -249,7 +249,7 @@ sections:
         id: 6_170_perplexity
       - &ref_31
         title: Deepseek
-        icon: Favicon
+        icon: https://external-content.duckduckgo.com/ip3/www.deepseek.com.ico
         url: https://chat.deepseek.com/
         id: 7_170_deepseek
     filteredItems:
