@@ -491,7 +491,7 @@ sections:
     items:
       - &ref_62
         title: TryHackMe
-        icon: favicon
+        icon: https://external-content.duckduckgo.com/ip3/tryhackme.com.ico
         url: https://tryhackme.com/
         id: 0_1389_tryhackme
       - &ref_63
