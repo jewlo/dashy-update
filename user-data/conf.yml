@@ -338,7 +338,7 @@ sections:
 
       - &ref_41
         title: Gearz
-        icon: https://gearz.gg/_next/image?url=%2Fimages%2FGEARZ-LOGO.png&w=128&q=75
+        icon: https://external-content.duckduckgo.com/ip3/gearz.gg.ico
         url: https://gearz.gg/
         id: 3_1151_gearzgg
     filteredItems:
