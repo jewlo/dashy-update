@@ -503,7 +503,7 @@ sections:
         title: vulnhub
         icon: favicon
         url: https://www.vulnhub.com/
-        id:
+        id: 1_1355_vulnhub
       - &ref_65
         title: OWASP
         icon: favicon
