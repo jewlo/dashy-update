@@ -371,7 +371,7 @@ sections:
         id: 2_1607_supabase
       - &ref_47
         title: Vercel
-        icon: favicon
+        icon: https://external-content.duckduckgo.com/ip3/vercel.com.ico
         url: https://vercel.com
         id: 3_1607_vercel
       - &ref_48
